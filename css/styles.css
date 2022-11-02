@@ -70,7 +70,8 @@ nav a:focus {
   text-align: right;
   display: flex;
   align-items: center;
-  transition-property: color;
+  fill: #afb1b8;
+  transition-property: color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -80,7 +81,7 @@ nav a:focus {
 .contact-bottom a:hover,
 .contact-bottom a:focus {
   color: var(--brand-color);
-  --color1: var(--brand-color);
+  fill: var(--brand-color);
 }
 
 .buttons button:hover,
@@ -437,16 +438,20 @@ footer .container {
   padding: 12px;
   cursor: pointer;
   border-radius: 50%;
-  --color4: var(--dark-bg-text);
-  transition-property: color, background;
+  fill: #afb1b8;
+  transition-property: color, background, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.white {
+  fill: var(--dark-bg-text);
 }
 
 .join-us-icon:hover,
 .join-us-icon:focus {
   background: var(--brand-color);
-  --color4: var(--dark-bg-text);
+  fill: var(--dark-bg-text);
 }
 
 .our-clients {
@@ -462,7 +467,8 @@ footer .container {
   padding: 16px 32px;
   border-radius: 3px;
   cursor: pointer;
-  transition-property: color, border;
+  fill: #afb1b8;
+  transition-property: color, border, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -470,11 +476,7 @@ footer .container {
 .our-clients-icon:hover,
 .our-clients-icon:focus {
   border: 1px solid var(--brand-color);
-  --color4: var(--brand-color);
-}
-
-.member {
-  --color4: var(--color4);
+  fill: var(--brand-color);
 }
 
 .lorem-ipsum-icon {
