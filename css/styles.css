@@ -584,3 +584,7 @@ footer .container {
 figure:hover .overlay {
   transform: translateY(0);
 }
+
+.blue {
+  color: var(--brand-color);
+}
