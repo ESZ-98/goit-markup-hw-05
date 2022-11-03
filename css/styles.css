@@ -581,6 +581,6 @@ footer .container {
   width: 370px;
 }
 
-.overlay-box:hover .overlay {
+figure:hover .overlay {
   transform: translateY(0);
 }
